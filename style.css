@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (max-width:760px) {
+    [class*="col-"] {
+        width: 100%;
+        padding: 5px;
+    
+}
+}
+
+.topbar {
+    background-color: #daac00;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.topbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 5px;
+    font-size: 2em;
+}
+
+.yellow {
+    background-color: #fcc302 !important;
+}
+
+.yellow h1 {
+    color: white;
+    margin-top: 30px;
+    font-size: 4em;
+}
+
+.yellow h2 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    ;
+
+}
+
+.btn {
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #00bec9;
+    cursor: pointer;
+}
+.outline{
+    border: 1px solid #fff;
+
+}
+.white{
+    background-color: #fff;
+    color: #c5acb0;
+}
+.white h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    color: #1c1c1c;
+    font-size: 3em;
+}
+   
+.white p{
+    color: #1c1c1c;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.yellow2 h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 3em;
+    color: #fff;
+
+}
+.yellow2 p {
+    text-align: center;
+    font-size: 2em;
+    color: #ffff;
+}
+.yellow2 h1{
+    text-align: center;
+    color: #fff;
+}
